@@ -45,6 +45,12 @@
       "date_last_checked": "2019-02-02"
     },
     {
+      "name": "Talk API (spreed)",
+      "url": "https://github.com/nextcloud/spreed",
+      "implementation status": "OK",
+      "date_last_checked": "2021-11-08"
+    },
+    {
       "name": "Capabilities API",
       "url": "https://docs.nextcloud.com/server/14/developer_manual/client_apis/OCS/index.html#capabilities-api",
       "implementation status": "OK",

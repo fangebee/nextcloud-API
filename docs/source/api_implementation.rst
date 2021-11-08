@@ -11,6 +11,7 @@ API name                      Implementation status Last checked date
 `The LDAP configuration API`_ OK                    2019-02-02
 `Capabilities API`_           OK                    2019-02-02
 `Group Folders API`_          OK                    2019-02-02
+`Talk API (spreed)`_          OK                    2021-11-08
 ============================= ===================== =================
 
 .. _User provisioning API: https://docs.nextcloud.com/server/14/admin_manual/configuration_user/user_provisioning_api.html
@@ -21,3 +22,4 @@ API name                      Implementation status Last checked date
 .. _The LDAP configuration API: https://docs.nextcloud.com/server/14/admin_manual/configuration_user/user_auth_ldap_api.html
 .. _Capabilities API: https://docs.nextcloud.com/server/14/developer_manual/client_apis/OCS/index.html#capabilities-api
 .. _Group Folders API: https://github.com/nextcloud/groupfolders
+.. _Talk API (spreed): https://github.com/nextcloud/spreed

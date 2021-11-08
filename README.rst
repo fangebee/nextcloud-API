@@ -17,6 +17,7 @@ The lib tends to support most common features i.e. :
 * LDAP configuration
 * Capabilities
 * Group Folders
+* Talk (spreed)
 
 Tested with :
 

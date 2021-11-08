@@ -8,6 +8,7 @@ from .group import Group
 from .group_folders import GroupFolders
 from .notifications import Notifications
 from .share import Share
+from .spreed import Spreed
 from .user import User
 from .user_ldap import UserLDAP
 from .webdav import WebDAV
