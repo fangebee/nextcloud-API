@@ -6,7 +6,7 @@ from nextcloud import base
 
 
 class Spreed(base.OCSv2ApiWrapper):
-    API_URL = "/ocs/v2.php/apps/spreed/api/v1"
+    API_URL = "/ocs/v2.php/apps/spreed/api/v3"
 
 
     # Conversations management - START
@@ -429,5 +429,7 @@ class Spreed(base.OCSv2ApiWrapper):
             params["setReadMarker"] = setReadMarker
         url = "/".join(["chat", str(token)])
         return self.requester.get(url, params=params)
+
+    # TODO to be continued...
 
     # Chat management - END
