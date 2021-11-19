@@ -76,7 +76,7 @@ class User(base.ProvisioningApiWrapper):
         """
         keys = [
             'email', 'quota', 'phone', 'address', 'website', 'twitter',
-            'displayname', 'password'
+            'displayname', 'password', 'language', 'locale'
         ]
         assert what in keys, (
             "You have chosen to edit user's '{what}', but you can choose only from: {choices}"
